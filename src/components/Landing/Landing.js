@@ -7,6 +7,7 @@ import './Landing.css';
 import { ThemeContext } from '../../contexts/ThemeContext';
 import { headerData } from '../../data/headerData';
 import { socialsData } from '../../data/socialsData';
+import img from '../../Images/me.jpg'
 
 import {
     FaTwitter,
@@ -15,6 +16,7 @@ import {
     FaYoutube,
     FaBlogger,
 } from 'react-icons/fa';
+
 
 function Landing() {
     const { theme, drawerOpen } = useContext(ThemeContext);
@@ -143,7 +145,7 @@ function Landing() {
                     </div>
                 </div>
                 <img
-                    src={headerData.image}
+                    src={img}
                     alt=''
                     className='landing--img'
                     style={{
