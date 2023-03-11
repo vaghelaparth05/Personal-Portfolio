@@ -15,6 +15,9 @@ import {
     FaGithub,
     FaYoutube,
     FaBlogger,
+    FaFacebook,
+    FaInstagram,
+    FaStrava,
 } from 'react-icons/fa';
 
 
@@ -103,16 +106,31 @@ function Landing() {
                                 />
                             </a>
                         )}
-                        {socialsData.twitter && (
+                        
+                        {socialsData.facebook && (
                             <a
-                                href={socialsData.twitter}
+                                href={socialsData.facebook}
                                 target='_blank'
                                 rel='noreferrer'
                             >
-                                <FaTwitter
+                                <FaFacebook
                                     className='landing--social'
                                     style={{ color: theme.secondary }}
-                                    aria-label='Twitter'
+                                    aria-label='Facebook'
+                                />
+                            </a>
+                        )}
+                        
+                        {socialsData.instagram && (
+                            <a
+                                href={socialsData.instagram}
+                                target='_blank'
+                                rel='noreferrer'
+                            >
+                                <FaInstagram
+                                    className='landing--social'
+                                    style={{ color: theme.secondary }}
+                                    aria-label='Instagram'
                                 />
                             </a>
                         )}
@@ -129,16 +147,16 @@ function Landing() {
                                 />
                             </a>
                         )}
-                        {socialsData.blogger && (
+                        {socialsData.strava && (
                             <a
-                                href={socialsData.blogger}
+                                href={socialsData.strava}
                                 target='_blank'
                                 rel='noreferrer'
                             >
-                                <FaBlogger
+                                <FaStrava
                                     className='landing--social'
                                     style={{ color: theme.secondary }}
-                                    aria-label='Blogger'
+                                    aria-label='Strava'
                                 />
                             </a>
                         )}

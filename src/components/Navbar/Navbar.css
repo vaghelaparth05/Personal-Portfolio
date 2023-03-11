@@ -25,6 +25,21 @@
     user-select: none;
 }
 
+.pizza{
+    font-family: var(--primaryFont);
+    display: flex;
+    flex-direction: row;
+    display: inline-flex;
+    align-items: center;
+}
+
+.pizza-icon{
+    height: 50px;
+    width: 75px;
+    display: inline-flex;
+    margin-right: 1rem;
+}
+
 .navLink--container {
     margin-top: 5rem;
 }

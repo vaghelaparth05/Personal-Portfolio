@@ -17,13 +17,13 @@ function Main() {
             <Education />
             <Skills />
             <Experience />
-            <Projects />
+            {/* <Projects /> */}
             <Achievement />
             <Services />
-            <Testimonials />
-            <Blog />
+            {/* <Testimonials /> */}
+            {/* <Blog /> */}
             <Contacts />
-            <Footer />
+            {/* <Footer /> */}
         </div>
     )
 }

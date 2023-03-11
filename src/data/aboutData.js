@@ -1,6 +1,6 @@
 export const aboutData = {
     title: "Who I am",
-    description1: "My name's Parth. I'm a web designer and developer based in Ahmedabad, India",
-    description2: "During the day I work as a lead developer at a local agency and in the evening I  work on freelance projects and utilize the time to built my own products. I spent my leisure hours writing articles and poetry. Right now I'm also trying a hand at machine learning and AI. I love to learn and explore new arenas.",
+    description1: "My name's Parth. I'm a Web Designer and Developer based in Ahmedabad, India",
+    description2: "For most of the day during afternoon, I work with my team as a web developer creating dynamic angular components using Bloomreach CMS and graphql. Apart from this I try to cycle in mornings and I also have a small youtube channel. Currently trying to lose weight, get fit and super healthy. You can find me in the morning wandering somewhere in Ahmedabad on my cycle or during night eating pizza. If you find me, then the treat is on me. Peace",
     image: 2
 }

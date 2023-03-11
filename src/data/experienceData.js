@@ -1,23 +1,23 @@
 export const experienceData = [
     {
         id: 1,
-        company: 'Globex Corporation',
-        jobtitle: 'Frontend Developer',
-        startYear: '2018',
-        endYear: '2019'
+        company: 'Publicis Sapient',
+        jobtitle: 'Intern',
+        startYear: 'Jan 2021',
+        endYear: 'April 2021'
     },
     {
         id: 2,
-        company: 'Vehement Capital Partners',
-        jobtitle: 'Backend Developer',
-        startYear: '2019',
-        endYear: '2020'
+        company: 'Publicis Sapient',
+        jobtitle: 'Junior Associate',
+        startYear: 'April 2021',
+        endYear: 'May 2022'
     },
     {
         id: 3,
-        company: 'Wonka Industries',
-        jobtitle: 'Marketing',
-        startYear: '2020',
+        company: 'Publicis Sapient',
+        jobtitle: 'Associate Experirnce Technology',
+        startYear: 'May 2021',
         endYear: 'Present'
     },
 ]
